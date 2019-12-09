@@ -33,5 +33,5 @@ def aoh_update(aoh, row, key, new_value)
   # Return the updated AoH
   assembled_aoh[1][:name] << "(PGOAT) "
   assembled_aoh[1][:name]
-  assembled_aoh
+
 end
