@@ -13,7 +13,7 @@ def assembled_aoh
   {:name=>"Don Gately", :occupation=>"Live-in Staff"},
   {:name=>"Joelle van Dyne", :occupation=>"Radio Personality"},
   {:name=> "Pat Monteseian", occupation: "Staff"},
-  { name:  "Kate Gompert", occupation: "None" },
+  {:name=>  "Kate Gompert", occupation: "None" },
   {:name=>"Bruce Green", :occupation=>"Fan of Mildred"}
 ]
 end
@@ -25,7 +25,7 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
-assembled_aoh[0][:name]
+assembled_aoh[2][:name]
 end
 
 def aoh_update(aoh, row, key, new_value)
