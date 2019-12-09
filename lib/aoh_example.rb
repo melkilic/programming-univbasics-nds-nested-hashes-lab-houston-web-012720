@@ -33,4 +33,5 @@ def aoh_update(aoh, row, key, new_value)
   # Return the updated AoH
   assembled_aoh[1][:name]="Joelle van Dyne(PGOAT)"
   assembled_aoh[1]
+  assembled_aoh
 end
